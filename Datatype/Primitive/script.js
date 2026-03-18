@@ -5,9 +5,9 @@ var phone =null;
 var b;
 const s1=Symbol();
 
-console.log(typeof(a));
-console.log(typeof(fname));
-console.log(typeof(isMarried));
-console.log(typeof(phone));
-console.log(typeof(b));
-console.log(s1);
+console.log(a,":",typeof(a));
+console.log(fname,":",typeof(fname));
+console.log(isMarried,":",typeof(isMarried));
+console.log(phone,":",typeof(phone));
+console.log(b,":",typeof(b));
+console.log(s1,":",typeof(s1));
