@@ -1,0 +1,10 @@
+let a=10;
+let b=10;
+let c="10";
+console.log("A :",a);
+console.log("B :",b);
+console.log("C :",c);
+console.log(" A Equal to B: ",a==b);
+console.log(" A Strict Equal to C: ",a===c);
+console.log(" A Not Equal to B: ",a!=b);
+console.log(" A Strict Not Equal to C: ",a!==c);
