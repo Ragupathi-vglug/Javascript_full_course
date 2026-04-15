@@ -7,7 +7,7 @@ This repository covers **all JavaScript concepts from basics to advanced**, incl
 
 ## 🎯 Goal
 
-- Learn JavaScript from scratch  
+- Learn JavaScript from scratch 
 - Master core and advanced concepts  
 - Build real-world applications  
 - Become a full-stack developer  
@@ -206,8 +206,7 @@ This repository covers **all JavaScript concepts from basics to advanced**, incl
 
 - Calculator  
 - To-Do App  
-- Weather App  
-- Quiz App  
+- Weather App   
 - Portfolio Website  
 
 ---
