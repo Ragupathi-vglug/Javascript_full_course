@@ -22,6 +22,16 @@ for(let i=0;i<3;i++){
     }
 }
 console.log(nums);
-// console.table(nums);
+console.table(nums);
 
-//
+//For of Loop
+let names=["Ragu","Pathi","Jane","Mike"];
+console.log("\nFor Loop ");
+console.log(names);
+for(i=0;i<names.length;i++){
+    console.log(names[i]);
+}
+console.log("\nFor of Loop ");
+for(let name of names){
+    console.log(name);
+}
