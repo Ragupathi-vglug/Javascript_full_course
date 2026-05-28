@@ -55,3 +55,10 @@ for(i=0;i<arr_keys.length;i++){
     console.log(arr_keys[i]," : ",arr_values[i]);
 }
 
+// Break Statement
+for(i=0;i<10;i++){
+    console.log(i);
+    if(i==5){
+        break;
+    }
+}
