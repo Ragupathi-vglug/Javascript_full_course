@@ -35,3 +35,23 @@ console.log("\nFor of Loop ");
 for(let name of names){
     console.log(name);
 }
+
+//For in loop
+const users={
+    name:"Ragu",
+    Age:21,
+    mob_no:"8667723804"
+}
+console.log("\n For in loop")
+for(let props in users){
+    console.log(props+" : "+users[props]);
+}
+
+// Looping through Objects
+console.log("\n",users)
+let arr_keys=Object.keys(users);
+let arr_values=Object.values(users);
+for(i=0;i<arr_keys.length;i++){
+    console.log(arr_keys[i]," : ",arr_values[i]);
+}
+
