@@ -1,0 +1,14 @@
+let c;
+c=Math.PI;
+c=Math.E;
+c=Math.round(3.4);
+c=Math.round(3.9);
+c=Math.floor(5.3);
+c=Math.ceil(5.3);
+c=Math.sqrt(16);
+c=Math.abs(-89);
+c=Math.trunc(5.92);
+c=Math.pow(2,3);
+c=Math.min(10,20,20381,129,189);
+c=Math.max(10,20,20381,129,189);
+console.log(c);
