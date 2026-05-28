@@ -62,3 +62,19 @@ for(i=0;i<10;i++){
         break;
     }
 }
+
+// Label Statement
+let groups=[
+    ["Ragu","Sweety","Kila"],
+    ["Rajesh","Stan","Ryuji"],
+    ["Nika","Nigga","Kelli"]
+];
+for(let group of groups){
+    inner:
+    for(let member of group){
+        if(member.startsWith("R")){
+            console.log("Found one starts with R :",member);
+            break inner;
+        }
+    }
+}
