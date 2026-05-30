@@ -11,4 +11,7 @@ c=Math.trunc(5.92);
 c=Math.pow(2,3);
 c=Math.min(10,20,20381,129,189);
 c=Math.max(10,20,20381,129,189);
+c=Math.random();
+c=Math.floor(10.9);
+c=Math.sign(10);
 console.log(c);
