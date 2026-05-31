@@ -101,4 +101,4 @@ console.log(a);
 
 // String from char code
 console.log("\n");
-console.log(String.fromCharCode(64,65,66));
+console.log(String.fromCharCode(64,66,66));
