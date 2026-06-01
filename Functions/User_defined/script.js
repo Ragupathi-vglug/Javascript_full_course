@@ -30,3 +30,16 @@ const sub=function(a,b){
 }
 console.log(sub(10,5));
 
+// Callback function
+function mycallback(){
+    console.log("This is a callback function");
+}
+function higherorderfunction(mycallback){
+    return mycallback();
+}
+higherorderfunction(mycallback);
+
+// Set function Timeout
+setTimeout (function(){
+    console.log("Hello world !");
+},3000);
