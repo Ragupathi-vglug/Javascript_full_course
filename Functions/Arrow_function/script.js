@@ -22,3 +22,15 @@ console.log(c);
 let tot=c.reduce((sum,d)=>sum+d,0);
 console.log(tot);
 
+// Using Arrow function to create closure
+let createCounter=()=>{
+    let count=0;
+    return ()=>{
+        count++;
+        return count;
+    }
+}
+let Counter=createCounter();
+console.log(Counter());
+console.log(Counter());
+console.log(Counter());
