@@ -55,3 +55,12 @@ numbers.forEach(function(number){
     console.log(number);
 });
 
+// Block scope and function scope
+let a=10;
+if(a==10){
+    let block="Hi Iam Ragu";
+    console.log(block);
+    var name1="Ragu";
+}
+console.log(name1);
+console.log(block);
