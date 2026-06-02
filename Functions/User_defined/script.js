@@ -40,8 +40,12 @@ function higherorderfunction(mycallback){
 higherorderfunction(mycallback);
 
 // Set function Timeout
-setTimeout (function(){
+// setTimeout (function(){
+//     console.log("Hello world !");
+// },3000);
+
+// Set Interval
+setInterval(function(){
     console.log("Hello world !");
 },3000);
 
-///
