@@ -40,12 +40,18 @@ function higherorderfunction(mycallback){
 higherorderfunction(mycallback);
 
 // Set function Timeout
-// setTimeout (function(){
-//     console.log("Hello world !");
-// },3000);
+setTimeout (function(){
+    console.log("Hello world !");
+},3000);
 
 // Set Interval
 setInterval(function(){
     console.log("Hello world !");
 },3000);
+
+// Foreach
+const numbers=[1,2,3];
+numbers.forEach(function(number){
+    console.log(number);
+});
 
