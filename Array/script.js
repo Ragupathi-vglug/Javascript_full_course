@@ -36,3 +36,4 @@ console.log(double_num);
 
 console.log("\n");
 // 4) Find the maximum element in an array
+hist
