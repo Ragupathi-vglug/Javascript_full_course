@@ -46,3 +46,34 @@ numbers.forEach(num=>{
 console.log(numbers);
 console.log("The maximum number is :",max);
 
+console.log("\n");
+// 5) calculate the average of an array
+let n1=[1,2,3];
+let total=0;
+n1.forEach(n=>{
+    total+=n;
+});
+console.log(n1);
+console.log("Average is :",total/n1.length);
+
+console.log("\n");
+// 6) Filter an array
+const n2=[1,2,3,4,5,6,7,8,9,10];
+let even=[];
+n2.forEach(n=>{
+    if(n%2==0){
+        even.push(n);
+    }
+});
+console.log(n2);
+console.log(even);
+
+console.log("\n");
+// 7) Update elements of an array
+const names=["Ragu","John","madison"];
+console.log(names);
+names.forEach((n,val)=>{
+    console.log(n,val);
+    names[val]=n.toUpperCase();
+});
+console.log(names);
