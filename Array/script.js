@@ -36,4 +36,13 @@ console.log(double_num);
 
 console.log("\n");
 // 4) Find the maximum element in an array
-hist
+const numbers=[1,2,4,36,34];
+let max=numbers[0];
+numbers.forEach(num=>{
+    if(num>max){
+        max=num;
+    }
+});
+console.log(numbers);
+console.log("The maximum number is :",max);
+
