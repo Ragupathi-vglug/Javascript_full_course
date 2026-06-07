@@ -28,8 +28,22 @@ console.log("\n");
 // 1) Simpple transformation
 const num=[1,2,3,4,5,6,7,8,9];
 let double=num.map(n=>n*2);
+console.log(num);
 console.log(double);
 
 console.log("\n");
 // 2)Modifying array elements
-const words=["Apple","Orange",];
+const fruits=["Apple","Orange","Mango"];
+let fr=fruits.map(word=>word.toUpperCase());
+console.log(fruits);
+console.log(fr);
+
+console.log("\n");
+// 3) Combining array
+const words=["Apple","Mango","Orange"];
+let colors=["Red","Yellow","Orange"];
+let fr_color=words.map((fruit,index)=>fruit+"-"+colors[index]);
+console.log(words);
+console.log(colors);
+console.log(fr_color);
+
