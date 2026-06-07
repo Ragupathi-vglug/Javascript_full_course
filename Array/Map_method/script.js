@@ -24,4 +24,12 @@ let eleigible_user=users.map((user)=>({
 console.table(eleigible_user);
 
 // map() advance
+console.log("\n");
 // 1) Simpple transformation
+const num=[1,2,3,4,5,6,7,8,9];
+let double=num.map(n=>n*2);
+console.log(double);
+
+console.log("\n");
+// 2)Modifying array elements
+const words=["Apple","Orange",];
