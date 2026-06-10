@@ -75,5 +75,11 @@ console.log("\n");
 // 6) Three argument Explain
 const fruit=["Apple","banana"];
 let sheet=fruit.map(function(current_value,index,array){
-    
+    return {
+        word:current_value,
+        lenth:current_value.length,
+        position:index,
+        tot_words:array.length
+    }
 })
+console.log(sheet);
