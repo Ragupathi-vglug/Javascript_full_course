@@ -47,3 +47,5 @@ console.log(words);
 console.log(colors);
 console.log(fr_color);
 
+console.log("\n");
+// 4) Filtering an array
