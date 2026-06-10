@@ -42,10 +42,38 @@ console.log("\n");
 // 3) Combining array
 const words=["Apple","Mango","Orange"];
 let colors=["Red","Yellow","Orange"];
-let fr_color=words.map((fruit,index)=>fruit+"-"+colors[index]);
+let fr_color=words.map((fruit,index)=>fruit+" - "+colors[index]);
 console.log(words);
 console.log(colors);
 console.log(fr_color);
 
 console.log("\n");
 // 4) Filtering an array
+const nums=[1,2,3,4,5];
+let even=nums.map(n=>num%2==0);
+console.log(nums);
+console.log(even);
+
+console.log("\n");
+// 5) Extracting properties from an array
+const students=[
+    {name:"Ragu",Age:20},
+    {name:"Pathi",Age:19}
+];
+let std_name=students.map(u=>u.name);
+console.log(std_name);
+// Update objects
+const upd_user=students.map(user=>{
+    return {
+    name:user.name,
+    age:user.Age+2
+    }
+});
+console.log(upd_user);
+
+console.log("\n");
+// 6) Three argument Explain
+const fruit=["Apple","banana"];
+let sheet=fruit.map(function(current_value,index,array){
+    
+})
