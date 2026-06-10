@@ -11,4 +11,22 @@ let users=[
 let exp_user=users.filter(u=>u.age>=25);
 console.log(exp_user);
 
-// 
+console.log("\n");
+// Ex : 02
+let colors=["gray","green","red","orange","violet"];
+let col_fil=colors.filter(n=>n.length===3);
+console.log(col_fil);
+let st_col=colors.filter(n=>n.startsWith("g"));
+console.log(st_col);
+
+console.log("\n");
+// Ex : 03
+let products=[
+    {name:"Apple",type:"fruit",price:150},
+    {name:"Orange",type:"fruit",price:100},
+    {name:"carrot",type:"veg",price:50},
+    {name:"onion",type:"veg",price:30},
+    {name:"tomato",type:"veg",price:60}
+];
+let cus=products.filter(product=>product.type==="veg" && product.price>50);
+console.log(cus);
