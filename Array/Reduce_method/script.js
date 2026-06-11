@@ -46,4 +46,3 @@ let groupbycity=people.reduce((ac,cur)=>{
     return ac;
 },{});
 console.log(groupbycity);
-
