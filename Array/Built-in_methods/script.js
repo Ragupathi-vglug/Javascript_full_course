@@ -34,11 +34,18 @@ console.log("\n");
 let a=[10,20,30];
 let b=[40,50,60];
 let c=[70,80,90];
-console.log(a);
-console.log(b);
-console.log(c);
+console.log("A :",a);
+console.log("B :",b);
+console.log("C :",c);
 
 let d=a.concat(b);
 console.log(d);
 
-console.log(a.concat(b));
+d=a.concat(b,c);
+console.log(d);
+
+d=a.concat(b,c,25,67,48,49,29);
+console.log(d);
+
+d=a.concat(b,c,[a,b,c]);
+console.table(d);
