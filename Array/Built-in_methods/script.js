@@ -28,4 +28,3 @@ console.log("Before ",n3);
 let removed_items=n3.splice(2,2,25,26);
 console.log(removed_items);
 console.log("After ",n3);
-
