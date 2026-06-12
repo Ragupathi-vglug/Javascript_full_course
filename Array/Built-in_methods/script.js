@@ -27,4 +27,18 @@ let n3=[1,2,3,4,5,6,7,8,9];
 console.log("Before ",n3);
 let removed_items=n3.splice(2,2,25,26);
 console.log(removed_items);
-console.log("After ",n3);
+console.log("After ",n3)
+
+console.log("\n");
+// Concat() method
+let a=[10,20,30];
+let b=[40,50,60];
+let c=[70,80,90];
+console.log(a);
+console.log(b);
+console.log(c);
+
+let d=a.concat(b);
+console.log(d);
+
+console.log(a.concat(b));
