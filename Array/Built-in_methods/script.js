@@ -88,7 +88,9 @@ console.log(things.join());
 console.log(things.join("+"));
 
 // Reverse() method
-const num=[1,2,3,4,,6,6,7,8];
+const num=[1,2,3,4,6,6,7,8];
 console.log("Before reverse :",num);
 num.reverse()
 console.log("After reverse :",num);
+
+// Push() method
