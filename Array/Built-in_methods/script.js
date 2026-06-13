@@ -50,7 +50,40 @@ console.log(d);
 d=a.concat(b,c,[a,b,c]);
 console.table(d);
 
+console.log("\n");
 // Sort() method
 const names=["Ragu","Bala","pathi","Abilash"];
 names.sort();
 console.log(names);
+
+const nums=[23,34,75,87,26,96];
+console.log("Before :",nums);
+nums.sort();
+console.log("After :",nums);
+nums.sort((a,b)=>{
+    return a-b;
+})
+console.log("Accending order sort :",nums);
+
+console.log("\n");
+// Fill() method syn : var_name.fill(value,st,end)
+let n=[1,2,3,4,5,6,7,8];
+console.log("Before fill :",n);
+n.fill("#",2);
+console.log("After fill :",n);
+
+console.log("\n");
+// Includes() method
+const products=["pen","pencil","eraser","box","pen"];
+let results=products.includes("pencil");
+console.log(products);
+console.log(results);
+results=products.includes("pencil",2);
+console.log(results);
+
+// join() method
+let things=["Hi","hello"];
+console.log(things);
+console.log(things.join());
+console.log(things.join("+"));
+
