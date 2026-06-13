@@ -49,3 +49,8 @@ console.log(d);
 
 d=a.concat(b,c,[a,b,c]);
 console.table(d);
+
+// Sort() method
+const names=["Ragu","Bala","pathi","Abilash"];
+names.sort();
+console.log(names);
