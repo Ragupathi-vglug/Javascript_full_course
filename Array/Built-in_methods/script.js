@@ -146,3 +146,10 @@ let s="lhihello";
 console.log(s);
 console.log("index of l :",s.indexOf("l"));
 console.log("index of l :",s.indexOf("l",3));
+
+console.log("\n");
+// lastindexof() method
+let student1=["Ragu","saranya","divya","Ragu"];
+console.log(student1);
+console.log("First inedx :",student1.indexOf("Ragu"));
+console.log("last index :",student1.lastIndexOf("Ragu"));
