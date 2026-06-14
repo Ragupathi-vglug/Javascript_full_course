@@ -81,16 +81,24 @@ console.log(results);
 results=products.includes("pencil",2);
 console.log(results);
 
+console.log("\n");
 // join() method
 let things=["Hi","hello"];
 console.log(things);
 console.log(things.join());
 console.log(things.join("+"));
 
+console.log("\n");
 // Reverse() method
 const num=[1,2,3,4,6,6,7,8];
 console.log("Before reverse :",num);
 num.reverse()
 console.log("After reverse :",num);
 
-// Push() method
+console.log("\n");
+// Array elements with length properties
+const x={0:10,1:20,2:30,3:40,length:4};
+console.log(x);
+Array.prototype.reverse.call(x);
+console.log(x);
+
