@@ -102,3 +102,17 @@ console.log(x);
 Array.prototype.reverse.call(x);
 console.log(x);
 
+console.log("\n");
+// Push() method
+n=[1,2,3,4];
+console.log(n);
+console.log(n.push(5,6));
+console.log(n);
+
+let users=["Ragu","Pathi"];
+let users1=["jeffy","rudy"]
+console.log(users);
+console.log(users1);
+users.push(...users1);
+console.log(users);
+
