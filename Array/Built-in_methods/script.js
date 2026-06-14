@@ -135,3 +135,14 @@ console.log("\n");
 console.log(students);
 students.unshift("mugu");
 console.log(students);
+
+console.log("\n");
+// Indexof() method
+let student=["Ragu","saranya","divya"];
+console.log(student);
+console.log(student.indexOf("Ragu"));
+
+let s="lhihello";
+console.log(s);
+console.log("index of l :",s.indexOf("l"));
+console.log("index of l :",s.indexOf("l",3));
