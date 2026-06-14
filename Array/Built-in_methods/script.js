@@ -116,3 +116,22 @@ console.log(users1);
 users.push(...users1);
 console.log(users);
 
+console.log("\n");
+// pop() method
+let users2=["jeffy","rudy"]
+console.log(users2);
+users.pop();
+console.log(users2);
+
+console.log("\n");
+// shift() method
+let students=["Ragu","pathi"];
+console.log(students);
+students.shift();
+console.log(students);
+
+console.log("\n");
+//unshift() method 
+console.log(students);
+students.unshift("mugu");
+console.log(students);
