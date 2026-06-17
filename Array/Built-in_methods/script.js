@@ -44,7 +44,7 @@ console.log(d);
 d=a.concat(b,c);
 console.log(d);
 
-d=a.concat(b,c,25,67,48,49,29);
+d=a.concat(b,c,30,67,48,49,29);
 console.log(d);
 
 d=a.concat(b,c,[a,b,c]);
