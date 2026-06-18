@@ -8,3 +8,5 @@ res=n.some((value)=>{
     return value%2==0;
 })
 console.log(res);
+
+// 
