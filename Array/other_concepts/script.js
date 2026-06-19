@@ -9,4 +9,4 @@ res=n.some((value)=>{
 })
 console.log(res);
 
-// 
+// Primitive and Reference data type
