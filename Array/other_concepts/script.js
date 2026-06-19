@@ -40,3 +40,11 @@ console.log(org);
 console.log("\n");
 clone=JSON.parse(JSON.stringify(org));
 console.log(org);
+
+console.log("\n");
+// const array
+const a=[1,2,3,4];
+console.log(a);
+a.push("k");
+console.log(a);
+
