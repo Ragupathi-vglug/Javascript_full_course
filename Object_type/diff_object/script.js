@@ -36,3 +36,12 @@ const obj2=Object.create(obj1);
 obj2.key3="value3";;
 console.log(obj2);
 console.log(obj2.key3);
+
+// Optional Chaining
+const user={name:"Ragu",Address:{city:"panrutti"}};
+console.log(user.Address?user.Address:undefined);
+console.log(user.Address && user.Address.city);
+user.Address.city="Cuddalore";
+console.log(user.Address?.city);
+let key="city";
+console.log(user.Address?.[key]);
