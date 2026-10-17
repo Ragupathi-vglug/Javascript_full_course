@@ -45,3 +45,10 @@ user.Address.city="Cuddalore";
 console.log(user.Address?.city);
 let key="city";
 console.log(user.Address?.[key]);
+
+// Function inside object
+const object={name:"Ragu",age:21,method:function(){
+    console.log("Iam method !");
+}}
+console.log(object);
+console.log(object.method());
