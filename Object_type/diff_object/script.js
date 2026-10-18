@@ -64,13 +64,35 @@ console.log(object.method());
 // Window object and this keyword
 console.log("\n");
 console.log("Window object ");
-let age=21;
+let age1=21;
 function info(){
-    console.log(age);
+    console.log(age1);
     console.log(this);
 }
 info();
 
 // Ex02
-age =45;
-const user{}
+var age =45;
+const Student={
+    age:25,
+    fun1:function(){
+        console.log("Fun1 :",this.age);
+        console.log("Fun1 :",this);
+    function fun2(){
+        console.log("Fun2 :",this.age);
+        console.log("Fun2 :",this);
+    }
+    fun2();
+    const fun3=()=>{
+        console.log("Fun3 :",this.age);
+        console.log("Fun3 :",this);
+    }
+    fun3();
+    }
+}
+Student.fun1();
+const fun4=()=>{
+    console.log("Fun4 :",this.age);
+    console.log("Fun4 :",this);
+}
+fun4();
