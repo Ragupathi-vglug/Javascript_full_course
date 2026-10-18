@@ -47,6 +47,7 @@ let key="city";
 console.log(user.Address?.[key]);
 
 // Function inside object
+
 // const object={name:"Ragu",age:21,method:function(){
 //     console.log("Iam method !");
 // }}
@@ -58,3 +59,18 @@ const object={name:"Ragu",age:21,method:()=>{
 }}
 console.log(object);
 console.log(object.method());
+
+
+// Window object and this keyword
+console.log("\n");
+console.log("Window object ");
+let age=21;
+function info(){
+    console.log(age);
+    console.log(this);
+}
+info();
+
+// Ex02
+age =45;
+const user{}
