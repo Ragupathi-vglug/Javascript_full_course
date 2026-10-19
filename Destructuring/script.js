@@ -37,3 +37,17 @@ let b=2;
 [a,b]=[b,a];
 console.log(a);
 console.log(b);
+
+// Skipping items using Destrructuring
+let myarray=[1,2,3,4,5];
+let [fir,,,fourth]=myarray;
+console.log(myarray);
+console.log(fir);
+console.log(fourth);
+
+let [f,s,...re]=myarray;
+console.log(f);
+console.log(s);
+console.log(re);
+
+// Nested Objects
