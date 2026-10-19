@@ -51,3 +51,13 @@ console.log(s);
 console.log(re);
 
 // Nested Objects
+const user={na:"Ragu",age:21,gender:"Male",address:{city:"Panrutti",state:"TN"}};
+const {na,address:{city,state},}=user;
+console.log(na);
+console.log(city);
+console.log(state);
+
+// Nested Array
+let num=[1,2,[3,4,[5,6]]];
+const [i,j,[k,l,[m,n]]]=num;
+console.log(i,j,k,l,m,n);
