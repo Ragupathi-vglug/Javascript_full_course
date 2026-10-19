@@ -31,3 +31,9 @@ console.log(name);
 console.log(age)
 console.log(gender);
 
+// Swapping 
+let a=1;
+let b=2;
+[a,b]=[b,a];
+console.log(a);
+console.log(b);
