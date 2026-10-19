@@ -61,3 +61,12 @@ console.log(state);
 let num=[1,2,[3,4,[5,6]]];
 const [i,j,[k,l,[m,n]]]=num;
 console.log(i,j,k,l,m,n);
+
+// Arrray of Objects
+let users=[
+    {name:"Ragu",age:21,gender:"Male",address:{city:"Panrutti",state:"TN"}},
+    {name:"Sara",age:22,gender:"Female",address:{city:"salem",state:"TN"}}
+]
+const[{name:name1,address:{city:city1}},{name:name2,address:{city:city2}}]=users;
+console.log(name1,city1);
+console.log(name2,city2);
