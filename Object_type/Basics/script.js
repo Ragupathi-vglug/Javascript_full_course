@@ -51,4 +51,15 @@ console.log(user["age"]);
 console.log(user);
 
 // Iteration Through Objects
-const user={name:"Ragu",age:21,job:"Backend"};
+const users={name:"Ragu",age:21,city:"Panrutti"};
+console.log(users)
+for (let keys in users){
+    console.log(`${keys} : ${users[keys]}`)
+}
+
+// Using Objecvt.keys()
+const keys=Object.keys(users);
+console.log(keys);
+keys.forEach(key=>{
+    console.log(`${key} ${users[key]}`);
+});
