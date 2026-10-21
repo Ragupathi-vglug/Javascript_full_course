@@ -70,3 +70,4 @@ let users=[
 const[{name:name1,address:{city:city1}},{name:name2,address:{city:city2}}]=users;
 console.log(name1,city1);
 console.log(name2,city2);
+
