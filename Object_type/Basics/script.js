@@ -95,4 +95,3 @@ for(const user of users1){
 }
 const names=users1.filter(name=>name.age>22);
 console.log(names);
-
