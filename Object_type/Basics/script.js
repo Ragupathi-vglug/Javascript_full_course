@@ -57,10 +57,30 @@ for (let keys in users){
     console.log(`${keys} : ${users[keys]}`)
 }
 
-// Using Objecvt.keys()
+// Using Object.keys()
 const keys=Object.keys(users);
 console.log(keys);
 keys.forEach(key=>{
     console.log(`${key} ${users[key]}`);
 });
+
+// Using Object.values()
+const values=Object.values(users);
+console.log(values);
+values.forEach(value=>{
+    console.log(value);
+});
+
+// Using Object.entries()
+const entries=Object.entries(users);
+console.log(entries);
+entries.forEach(entry=>{
+    console.log(entry[0]," : ",entry[1]);
+});
+
+// Using Normal forloop
+for(i=0;i<entries.length;i++){
+    console.log(entries[i][0]," : ",entries[i][1]);
+}
+
 
