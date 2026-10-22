@@ -83,4 +83,16 @@ for(i=0;i<entries.length;i++){
     console.log(entries[i][0]," : ",entries[i][1]);
 }
 
+// Objects inside in Array
+const users1=[
+    {name:"Ragu",age:21,city:"Panrutti"},
+    {name:"Walter",age:47,city:"Washington"},
+    {name:"Jessy",age:26,city:"Washington"}
+];
+console.log(users1);
+for(const user of users1){
+    console.log(user.name);
+}
+const names=users1.filter(name=>name.age>22);
+console.log(names);
 
