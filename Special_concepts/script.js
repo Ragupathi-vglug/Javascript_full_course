@@ -12,5 +12,3 @@ myfunction(1,2,3,4,5,6,7,8,9,0);
 let a=[1,2,3];
 let b=[...a,4,5];
 console.log(b);
-
-
