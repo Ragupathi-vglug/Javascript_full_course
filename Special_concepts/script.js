@@ -44,3 +44,24 @@ console.log(ragu.name);
 console.log(ragu.toString);
 
 // Call method
+const Student={username:"Ragupathi"};
+function welcome(){
+    console.log("Welcome :",this.username);
+}
+function total(eng,math){
+    console.log(this.username ,"Got ",(eng+math)," Marks");
+}
+
+welcome();
+total(50,70);
+total.call(Student,50,50);
+
+// Apply Method
+let sub=[50,100];
+total.apply(Student,sub);
+
+// Bind Method
+const fun=total.bind(Student,90,90);
+console.log(fun);
+fun();
+
