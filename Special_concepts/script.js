@@ -28,4 +28,10 @@ function add([a,b]){
 let numa=[92990,1810];
 console.log(add(numa));
 
-const user={}
+const user={name:"Ragu",age:21,city:"Panutti",country:"India"};
+function Hi({name,age,...rest}){
+    console.log(`${name} is ${age} years old and He is a Student`);
+    console.log(rest);
+}
+Hi(user);
+
