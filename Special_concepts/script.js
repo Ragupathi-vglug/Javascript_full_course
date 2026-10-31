@@ -35,3 +35,12 @@ function Hi({name,age,...rest}){
 }
 Hi(user);
 
+// Call Apply and Bind Methods
+function ragu(){
+    console.log(this);
+}
+ragu();
+console.log(ragu.name);
+console.log(ragu.toString);
+
+// Call method
