@@ -25,5 +25,7 @@ SayHello(person);
 function add([a,b]){
     return a+b;
 }
-let numa=[1,3];
-console.log(SayHello(numa));
+let numa=[92990,1810];
+console.log(add(numa));
+
+const user={}
