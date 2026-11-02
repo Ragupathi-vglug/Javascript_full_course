@@ -52,7 +52,6 @@ function total(eng,math){
     console.log(this.username ,"Got ",(eng+math)," Marks");
 }
 
-
 welcome();
 total(50,70);
 total.call(Student,50,50);
@@ -65,3 +64,4 @@ total.apply(Student,sub);
 const fun=total.bind(Student,90,90);
 console.log(fun);
 fun();
+
