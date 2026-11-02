@@ -52,6 +52,7 @@ function total(eng,math){
     console.log(this.username ,"Got ",(eng+math)," Marks");
 }
 
+
 welcome();
 total(50,70);
 total.call(Student,50,50);
