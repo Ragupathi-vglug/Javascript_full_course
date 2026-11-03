@@ -70,3 +70,8 @@ const per={firstname:"Ragu",lastname:"pathi",fullname:function(){
     return this.firstname+this.lastname;
 }}
 console.log(per.fullname);
+const anoper={
+    firstname:"Walter",
+    lastname:"White"
+}
+console.log(per.fullname.call(anoper));
