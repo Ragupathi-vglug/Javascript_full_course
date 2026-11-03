@@ -65,3 +65,8 @@ const fun=total.bind(Student,90,90);
 console.log(fun);
 fun();
 
+// Call Apply and Bind Methods Ex02
+const per={firstname:"Ragu",lastname:"pathi",fullname:function(){
+    return this.firstname+this.lastname;
+}}
+console.log(per.fullname);
