@@ -75,3 +75,4 @@ const anoper={
     lastname:"White"
 }
 console.log(per.fullname.call(anoper));
+
