@@ -64,3 +64,4 @@ total.apply(Student,sub);
 const fun=total.bind(Student,90,90);
 console.log(fun);
 fun();
+
