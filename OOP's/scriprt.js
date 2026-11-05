@@ -105,3 +105,9 @@ const mycir=new circle(5);
 console.log(mycir.radius);
 console.log(mycir.diameter);
 console.log(mycir.area);
+
+mycir.diameter=12;
+
+console.log(mycir.radius);
+console.log(mycir.diameter);
+console.log(mycir.area);
