@@ -48,4 +48,24 @@ console.log(stud);
 stud.sayHello();
 stud.eligibility();
 
-
+// After ES6
+class Person1{
+    constructor(name){
+        this.name=name;
+    }
+    sayHello(){
+        console.log("Hello my name is "+this.name);
+    }
+}
+class Stud extends Person{
+    constructor(name,age){
+        super(name);
+        this.age=age;
+    }
+    eligibility(){
+        console.log(this.name+" Age is "+this.age+" "+(this.age>=18?"Eligible":"Not Eligible"))
+    }
+}
+var s=new Stud("Ragu",21);
+s.sayHello();
+s.eligibility();
