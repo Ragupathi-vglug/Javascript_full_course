@@ -94,8 +94,8 @@ class circle{
     get diameter(){
         return this.radius*2;
     }
-    set diameter(diameter){
-       return this.diameter=this.radius/2; 
+    set diameter(dia){
+       return this.radius=this.dia/2; 
     }
     get area(){
         return Math.PI*this.radius*this.radius;
@@ -103,5 +103,5 @@ class circle{
 }
 const mycir=new circle(5);
 console.log(mycir.radius);
-console.log(mycir.area);
 console.log(mycir.diameter);
+console.log(mycir.area);
