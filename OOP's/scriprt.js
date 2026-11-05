@@ -71,16 +71,17 @@ s.sayHello();
 s.eligibility();
 
 // Getter and Setter
-const user={firstname:"Ragu",lastname:"Pathi",get fullname(){
+const user1={firstname:"Ragu",lastname:"Pathi",get fullname(){
     return this.firstname+" "+this.lastname;
 },
 set fullname(name){
-    const parts=name.split("");
+    const parts=name.split(" ");
     this.firstname=parts[0];
     this.lastname=parts[1];
 }}
-console.log(user);
-console.log(user.firstname);
-user.firstname="Raj";
-console.log(user.firstname);
-user.fullname="sneha ragu"
+console.log(user1);
+console.log(user1.firstname);
+user1.firstname="Raj";
+console.log(user1.firstname);
+user1.fullname="sneha ragu";
+console.log(user1.fullname);
