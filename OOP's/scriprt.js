@@ -85,3 +85,23 @@ user1.firstname="Raj";
 console.log(user1.firstname);
 user1.fullname="sneha ragu";
 console.log(user1.fullname);
+
+// Getter Setter Ex01
+class circle{
+    constructor(radius){
+        this.radius=radius;
+    }
+    get diameter(){
+        return this.radius*2;
+    }
+    set diameter(diameter){
+       return this.diameter=this.radius/2; 
+    }
+    get area(){
+        return Math.PI*this.radius*this.radius;
+    }
+}
+const mycir=new circle(5);
+console.log(mycir.radius);
+console.log(mycir.area);
+console.log(mycir.diameter);
