@@ -47,3 +47,5 @@ var stud=new Student("Ragu",22);
 console.log(stud);
 stud.sayHello();
 stud.eligibility();
+
+
