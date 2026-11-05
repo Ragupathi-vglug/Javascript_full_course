@@ -81,6 +81,6 @@ set fullname(name){
 }}
 console.log(user);
 console.log(user.firstname);
-user.firstname="Ragu";
+user.firstname="Raj";
 console.log(user.firstname);
-
+user.fullname="sneha ragu"
