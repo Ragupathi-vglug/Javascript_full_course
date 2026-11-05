@@ -71,3 +71,16 @@ s.sayHello();
 s.eligibility();
 
 // Getter and Setter
+const user={firstname:"Ragu",lastname:"Pathi",get fullname(){
+    return this.firstname+" "+this.lastname;
+},
+set fullname(name){
+    const parts=name.split("");
+    this.firstname=parts[0];
+    this.lastname=parts[1];
+}}
+console.log(user);
+console.log(user.firstname);
+user.firstname="Ragu";
+console.log(user.firstname);
+
