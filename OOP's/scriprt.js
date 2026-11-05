@@ -69,3 +69,5 @@ class Stud extends Person{
 var s=new Stud("Ragu",21);
 s.sayHello();
 s.eligibility();
+
+// Getter and Setter
