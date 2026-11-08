@@ -95,7 +95,8 @@ class circle{
         return this.radius*2;
     }
     set diameter(dia){
-       return this.radius=this.dia/2; 
+       this.radius=this.dia/2;
+       return this.radius; 
     }
     get area(){
         return Math.PI*this.radius*this.radius;
@@ -111,3 +112,6 @@ mycir.diameter=12;
 console.log(mycir.radius);
 console.log(mycir.diameter);
 console.log(mycir.area);
+
+// Static Methods and Properties
+
