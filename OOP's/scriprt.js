@@ -114,6 +114,3 @@ console.log(mycir.diameter);
 console.log(mycir.area);
 
 // Static Methods and Properties
-
-
-
