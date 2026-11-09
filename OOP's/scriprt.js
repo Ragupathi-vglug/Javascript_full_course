@@ -114,4 +114,12 @@ console.log(mycir.diameter);
 console.log(mycir.area);
 
 // Static Methods and Properties
+class details{
+    static name="Ragu";
+    static action(){
+        console.log("Hi I am Ragupathi And Iam a Student");
+    }
+}
+details.action();
+console.log(details.name);
 
