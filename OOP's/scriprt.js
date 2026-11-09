@@ -138,5 +138,14 @@ const db1=Database.getInstance();
 const db2=Database.getInstance();
 console.log(db1===db2);
 
+// Constants
+class colors{
+    static red="#ff0000";
+    static bllue="00ff00";
+    static green="00ff000";
+}
+console.log(colors.red);
+console.log(colors.green);
+console.log(colors.bllue);
 
-
+// Prototype and Prototype Inheritance
