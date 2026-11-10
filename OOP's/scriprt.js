@@ -149,4 +149,24 @@ console.log(colors.green);
 console.log(colors.bllue);
 
 // Prototype and Prototype Inheritance
+const obj1={name:"Ragu",city:"Cuddalore",info:function(){console.log(this.city)}}
+// const obj2=Object.create(obj1);
+const obj2={};
+obj2.name="Ragupathi";
+obj2.__proto__=obj1;
+console.log(obj1);
+console.log(obj2);
+console.log(obj2.city);
+console.log(obj2.info());
 
+// Another Example
+function per1(name){
+    this.name=name;
+}
+per1.prototype.greet=function(){
+    console.log("Hello My name is ",this.name);
+}
+const alice=new per1("Alice");
+const bob=new per1("Bob");
+alice.greet();
+bob.greet();
